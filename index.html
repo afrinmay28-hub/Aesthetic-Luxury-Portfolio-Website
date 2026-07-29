@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JEZ STUDIO | Editorial Portfolio</title>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #d0c8be;
+            color: #22201d;
+            font-family: 'Times New Roman', Times, serif;
+            display: flex;
+            justify-content: center;
+            padding: 20px 10px;
+        }
+
+        .page-canvas {
+            width: 100%;
+            max-width: 480px;
+            background-color: #e8e3db;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+            overflow: hidden;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 18px 20px;
+            font-size: 10px;
+            letter-spacing: 2px;
+            font-family: Arial, sans-serif;
+            border-bottom: 1px solid #d8d2c7;
+        }
+
+        .brand-logo {
+            font-size: 14px;
+            font-weight: bold;
+            letter-spacing: 3px;
+        }
+
+        /* 1. HERO SECTION */
+        .hero-section {
+            padding: 30px 15px;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            background-color: #e8e3db;
+        }
+
+        .hero-img-left {
+            width: 30%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 2px;
+        }
+
+        .hero-center-text {
+            width: 40%;
+            text-align: center;
+        }
+
+        .sub-tag {
+            font-size: 8px;
+            letter-spacing: 2px;
+            color: #9e8d7c;
+            font-family: Arial, sans-serif;
+            margin-bottom: 10px;
+        }
+
+        .hero-center-text h1 {
+            font-size: 20px;
+            font-weight: normal;
+            line-height: 1.2;
+            text-transform: uppercase;
+            margin-bottom: 12px;
+        }
+
+        .btn-black {
+            display: inline-block;
+            background-color: #22201d;
+            color: #ffffff;
+            padding: 6px 12px;
+            font-size: 8px;
+            font-family: Arial, sans-serif;
+            letter-spacing: 1px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+
+        .hero-img-right {
+            width: 30%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 2px;
+        }
+
+        /* 2. QUOTE BLOCK */
+        .quote-block {
+            padding: 40px 20px;
+            text-align: center;
+            background-color: #dfd9ce;
+            border-top: 1px solid #d8d2c7;
+            border-bottom: 1px solid #d8d2c7;
+        }
+
+        .quote-block .tag {
+            font-size: 8px;
+            letter-spacing: 2px;
+            color: #77746d;
+            font-family: Arial, sans-serif;
+            margin-bottom: 10px;
+        }
+
+        .quote-block h2 {
+            font-size: 22px;
+            font-weight: normal;
+            line-height: 1.3;
+        }
+
+        /* 3. DARK SECTION */
+        .dark-section {
+            background-color: #363431;
+            color: #e8e3db;
+            padding: 35px 20px;
+        }
+
+        .dark-grid {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+        }
+
+        .dark-text {
+            width: 50%;
+        }
+
+        .dark-text .welcome-tag {
+            font-size: 8px;
+            letter-spacing: 2px;
+            color: #9e8d7c;
+            font-family: Arial, sans-serif;
+            margin-bottom: 8px;
+        }
+
+        .dark-text h3 {
+            font-size: 20px;
+            font-weight: normal;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+        }
+
+        .dark-text p {
+            font-size: 9px;
+            color: #bfa89a;
+            font-family: Arial, sans-serif;
+            line-height: 1.5;
+        }
+
+        .dark-img {
+            width: 50%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 2px;
+        }
+
+        /* FOOTER */
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 8px;
+            font-family: Arial, sans-serif;
+            letter-spacing: 2px;
+            color: #77746d;
+            background-color: #e8e3db;
+            border-top: 1px solid #d8d2c7;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="page-canvas">
+
+        <header>
+            <span>ABOUT</span>
+            <span class="brand-logo">JEZ STUDIO</span>
+            <span>CONTACT</span>
+        </header>
+
+        <section class="hero-section">
+            <img src="https://picsum.photos/300/400?random=1" class="hero-img-left" alt="Aesthetic Shot">
+            
+            <div class="hero-center-text">
+                <p class="sub-tag">LUXURY & CREATIVE</p>
+                <h1>ACHIEVE HARMONY IN WORK & LIFE</h1>
+                <a href="#services" class="btn-black">VIEW SERVICES</a>
+            </div>
+
+            <img src="https://picsum.photos/300/400?random=2" class="hero-img-right" alt="Architecture">
+        </section>
+
+        <section class="quote-block">
+            <p class="tag">IMAGINE</p>
+            <h2>achieving your goals <br> while maintaining <br> inner peace.</h2>
+        </section>
+
+        <section class="dark-section">
+            <div class="dark-grid">
+                <div class="dark-text">
+                    <p class="welcome-tag">WELCOME, FRIEND</p>
+                    <h3>I'M JEZ</h3>
+                    <p>Specializing in high-end personal branding, global events, and lifestyle aesthetics.</p>
+                </div>
+                <img src="https://picsum.photos/300/400?random=3" class="dark-img" alt="Founder Portrait">
+            </div>
+        </section>
+
+        <footer>
+            <p>© 2026 JEZ STUDIO. ALL RIGHTS RESERVED.</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
